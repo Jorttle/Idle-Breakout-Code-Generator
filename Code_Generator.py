@@ -1,5 +1,4 @@
 import base64
-# {level},{money},{gold},{gold_claim},0,0,0,{black_bricks},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,{boss_level},{skill_points},0,0,0,
 
 money = input('How much money do you want?: ')
 level = input('What level do you want to be at?: ')
@@ -13,12 +12,10 @@ boss_level = '0'
 code = f'{level},{money},{gold},{gold_claim},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,{black_bricks},0,0,0,{boss_level},{skill_points},0,0,0,'
 # Encode the string to bytes (UTF-8)
 code_bytes = code.encode("utf-8")
-
 # Base64-encode those bytes
 encoded_bytes = base64.b64encode(code_bytes)
-
 # Convert the Base64 bytes back to a string for printing or saving
 encoded_str = encoded_bytes.decode("utf-8")
 
-print(encoded_str)
+print("\n\n\n\n", encoded_str)
 
