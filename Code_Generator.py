@@ -18,4 +18,4 @@ encoded_bytes = base64.b64encode(code_bytes)
 encoded_str = encoded_bytes.decode("utf-8")
 
 print("\n\n\n\n", encoded_str)
-
+press_enter = input('Press enter to exit') 
