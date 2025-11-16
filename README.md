@@ -1,8 +1,18 @@
-\# If You Can't Use Python
+# If You Can't Use Python
 
 I made an EXE file you can use, found under "releases"
 
-\# Idle-Breakout-Code-Generator
+# Creating EXE
+
+Install pyinstaller if not already
+
+`pip install pyinstaller`
+
+Then run
+
+`pyinstaller --onefile Code_Generator.py`
+
+# Idle-Breakout-Code-Generator
 
 Idle Breakout is a game that allows you to import and export your save data. This save data is entirely stored on the code it gives you when you press "export".
 
@@ -22,7 +32,7 @@ Here are what the different numbers mean:
 
 `{level},{money},{gold},{gold\_claim},0,0,0,0,0,0,0,0,0,0,{Unkown number},{Large number},0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,{Skills: 1,1,1,1,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0 :End Skills},{black\_bricks},0,0,0,{boss\_level},{skill\_points},0,0,0,`
 
-\# 
+# 
 
 
 
@@ -78,7 +88,7 @@ Skills: This represents what skills you have. 1's represent True and 0 represent
 
 
 
-\# How to import data
+# How to import data
 
 
 
@@ -110,7 +120,7 @@ If a text box does not appear, try refreshing the page. If that doesn't work, id
 
 
 
-\# BE CARFUL WITH LEVEL NUMBER
+# BE CARFUL WITH LEVEL NUMBER
 
 
 
@@ -118,7 +128,7 @@ Do not set the number too high or the game will turn black. One billion (1000000
 
 
 
-\# Example output
+# Example output
 
 
 
